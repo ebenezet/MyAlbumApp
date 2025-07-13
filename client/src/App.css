@@ -47,4 +47,6 @@
   align-items: center;
   justify-content: center;
   background-color: #cbf3f0;
+  height: 80vh;
+  width: auto;
 }
