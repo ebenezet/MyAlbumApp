@@ -1,0 +1,50 @@
+.App{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+   background-color: #2ec4b6;
+   color: #333
+}
+
+.NavBars{
+  display:flex;
+  justify-content: center;
+  text-transform:uppercase;
+  gap: 3rem;
+  text-decoration: none;
+  margin-top: 1.2rem;
+  margin-left: 4.6rem;
+  font-weight: bold;
+}
+
+.navbar-box{
+  display:flex;
+   border: 0.1rem solid black;
+  border-radius: 0.6rem;
+  width:8rem;
+  height:2rem;
+  justify-content: center;
+  align-items: center;
+  background-color:#ffbf69;
+
+}
+
+.navbar-box:hover {
+  background-color: rgb(245 158 11);
+  text-decoration: none;
+  color: white;
+}
+
+.App-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbf3f0;
+}

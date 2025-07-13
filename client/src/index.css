@@ -1,0 +1,40 @@
+
+
+.App{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.logo-companyname-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.NavBars{
+  display:flex;
+  justify-content: center;
+  text-transform:uppercase;
+  gap: 3rem;
+  text-decoration: none;
+  margin-top: 1.3rem;
+  margin-left: 1.2rem;
+}
+
+.navbar-box{
+  display:flex;
+   border: 0.1rem solid black;
+  border-radius: 0.6rem;
+  width:8rem;
+  height:2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 120, 231) ;
+
+}
+
+.navbar-box:hover {
+  background-color: rgb(245 158 11);
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.broken-record {
+    width: auto;
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #333;
+}

@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    background-color: #2ec4b6;
+    margin-top: auto;
+    bottom:0;
+    position: fixed;
+    width:100%;;
+    height:auto;
+    align-content:space-evenly;
+    gap:2rem;
+    align-items: center;
+    justify-content: space-around;
+    color: #333
+}
+
+p {
+    margin:0rem;
+    
+}

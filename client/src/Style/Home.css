@@ -1,0 +1,12 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    color:#333;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
+}
