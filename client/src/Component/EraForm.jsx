@@ -6,7 +6,7 @@ export default function EraForm() {
     async function handleSubmit(event) {
         event.preventDefault()
         try {
-            const res = await fetch(`http://localhost:4000/eras`, {
+            const res = await fetch(`https://myalbumapp-1.onrender.com/eras`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

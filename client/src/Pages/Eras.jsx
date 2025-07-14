@@ -12,7 +12,7 @@ export default function Eras(){
        
         async function fetchEra() {
             console.log("Time to fetch some eras from the server")
-            const response = await fetch(`http://localhost:4000/eras`)
+            const response = await fetch(`https://myalbumapp-1.onrender.com/eras`)
             const erasList = await response.json()
             setEras(erasList)
         }
