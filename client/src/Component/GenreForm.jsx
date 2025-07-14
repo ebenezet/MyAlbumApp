@@ -6,7 +6,7 @@ export default function GenreForm() {
     async function handleSubmit(event) {
         event.preventDefault()
         try {
-            const res = await fetch(`https://myalbumapp-1.onrender.com/genres`, {
+            const res = await fetch(`https://myalbumapp.onrender.com/genres`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

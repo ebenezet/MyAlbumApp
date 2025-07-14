@@ -10,7 +10,7 @@ export default function IndividualAlbum() {
     
     useEffect(() => {
         async function fetchAlbum() {
-            const res = await fetch(`https://myalbumapp-1.onrender.com/albums/${id}`)
+            const res = await fetch(`https://myalbumapp.onrender.com/albums/${id}`)
             const albumdata = await res.json()
             setAlbum(albumdata[0])
         }

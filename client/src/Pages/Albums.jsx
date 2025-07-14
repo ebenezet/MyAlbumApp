@@ -14,7 +14,7 @@ export default function Albums(){
        
         async function fetchAlbum() {
             console.log("Time to fetch some albums from the server")
-            const response = await fetch(`https://myalbumapp-1.onrender.com/albums`)
+            const response = await fetch(`https://myalbumapp.onrender.com/albums`)
             const albumsList = await response.json()
             setAlbums(albumsList)
         }
