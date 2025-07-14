@@ -37,6 +37,8 @@ export default function AlbumForm() {
             <input name="artist" placeholder="artist" onChange={handleChange} required />
             <label htmlFor="year">Year</label>
             <input name="year" placeholder="year" onChange={handleChange} required />
+            <label htmlFor="cover">Cover</label>
+            <input name="cover" placeholder="cover" onChange={handleChange} required />
             <label htmlFor="Genre">Genre</label>
             <input name="genre_id" placeholder="genre_id" onChange={handleChange} required />
             <button type="submit">Submit</button>
