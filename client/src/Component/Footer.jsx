@@ -10,7 +10,7 @@ export function Footer(){
                 <p>United Kingdom</p>
                 </div>
             <div className="email">
-                <p>album-mania@albumcom</p>
+                <p>album-mania@album.com</p>
             </div>
             <div className="telephone">
                 <p>+447103647899</p>

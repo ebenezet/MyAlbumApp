@@ -27,7 +27,7 @@ export default function Contactus(){
 
 
     return(
-        <div  key="form"  onSubmit={handlelSubmit}>
+        <div  key="form-container"  onSubmit={handlelSubmit}>
             <form className="contactus-container">
                 <label htmlFor="firstname" >First Name</label>
                 <input type="text" id="firstname" name="firstname" onChange={handleChange}/>
@@ -36,7 +36,7 @@ export default function Contactus(){
                 <label htmlFor="country">Country</label>
                 <input type="text" id="country" name="country" onChange={handleChange}/>
                 <label htmlFor="comment">Comment</label>
-                <textarea type="text" name="comment" onChange={handleChange}/>
+                <textarea type="text" name="comment" className="textarea" onChange={handleChange}/>
                 <button type="submit">Submit</button>
             </form>
         </div>

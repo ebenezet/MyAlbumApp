@@ -7,7 +7,7 @@ import '../Style/Home.css'
 export default function Home(){
     return(
         <div className='home-page'>
-            <h2>Our beloved home page!</h2>
+            <h2>Welcome to Album-Mania, home of great records!</h2>
             <h3>Please add a new album to the collection</h3>
             <AlbumForm className="albumform" />
             <h3>Please add a new music genre</h3>

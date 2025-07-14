@@ -2,8 +2,8 @@ import  ReactCurvedText from "react-curved-text";
 
 export default function Logo() {
   return (
-    <div>
-    <ReactCurvedText
+    <div >
+    <ReactCurvedText 
       width={100}
       height={90}
       cx={50}
@@ -13,8 +13,9 @@ export default function Logo() {
       startOffset={0}
       reversed={true}
       
-      text="Album-Mania * Since 1954 *"
-    />
+      text="Album-Mania * ********* *"
+      text-color="blue"
+  />
     
     </div>
   );

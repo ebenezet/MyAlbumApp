@@ -50,3 +50,19 @@
   height: 80vh;
   width: auto;
 }
+
+.album-mania {
+  color:blue
+}
+
+input{
+    text-align: center
+}
+
+label{
+
+  color: lightsalmon;
+  font-weight: bold;
+  
+ 
+}
